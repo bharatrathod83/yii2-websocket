@@ -1,6 +1,6 @@
 {
 	"name": "bharatrathod83/yii2-websocket",
-	"description": "Yii2 websocket server component",
+	"description": "Yii2 websocket server component (updated to use Ratchet ^0.4)",
 	"type": "yii2-extension",
 	"keywords": [
 		"yii2",
@@ -11,17 +11,17 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Sergey Poltaranin (Consik)",
-			"email": "consigliere.kz@gmail.com"
+			"name": "Bharat Rathod",
+			"email": "bharat.rathod@dreambridge.global"
 		}
 	],
 	"require": {
 		"yiisoft/yii2": "*",
-		"cboden/ratchet": "*"
+		"cboden/ratchet": "^0.4"
 	},
 	"autoload": {
 		"psr-4": {
-			"consik\\yii2websocket\\": ""
+			"consik\\yii2websocket\\": "src/"
 		}
 	}
 }
